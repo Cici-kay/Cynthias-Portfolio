@@ -104,3 +104,45 @@ h2 {
 .buttons .btn:hover {
     background-color: #ff6f4e;
 }
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 18px;
+    text-align: left;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #f05423;
+}
+
+.navbar a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #f05423;
+    transition: width 0.3s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
