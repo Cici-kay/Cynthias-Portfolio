@@ -238,3 +238,16 @@ footer {
     border-width: 20px;
 
 }
+
+.about-statement {
+    font-size: 28px;
+    margin-top: 34px;
+}
+
+.heading {
+    text-align: center;
+    text-shadow: 2px 2px 4px;
+    font-style: oblique;
+    border: #e65100 2px solid;
+    border-width: 4px;
+}
