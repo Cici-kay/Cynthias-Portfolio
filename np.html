@@ -1,50 +1,104 @@
 <!DOCTYPE html>
- <html lang="Eng">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Portfolio - Cynthia Kaleche</title>
-        <link rel="stylesheet" href="./style.css">
-    
-    </head>
-
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header class="navbar">
         <div class="container">
-            <div class="left-section">
-                <div class="name-section">
-                    <p class="decorated-name"> <em>Cynthia Kaleche</em></p>
-                </div>
-                <div class="profile-image">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_o_ad4ZePmUk3czq5wcQDn1bHkgreN3JYQ&s" alt="Cynthia Kaleche">
-                </div>
-                <div class="social-links">
-                    <a href="#"> <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn"></a>
-                    <a href="#"> <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
-                    <a href=""> <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.png" alt="Twitter"></a>
-                    <a href="#"> <img src="https://w7.pngwing.com/pngs/507/666/png-transparent-computer-icons-whatsapp-whatsapp-text-logo-silhouette-thumbnail.png" alt="Whatsapp"></a>
-                </div>
+            <h1 class="logo">CODER</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <section id="home" class="section home">
+        <div class="home-left">
+            <img src="IMG_5468.jpeg" alt="Your Image" class="profile-image">
+            <h1 class="name">Cynthia Kaleche</h1>
+            <div class="social-media">
+                <a href="https://github.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo"></a>
+                <a href="https://twitter.com" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/018/910/707/original/twitter-logo-twitter-icon-twitter-symbol-free-free-vector.jpg" alt="Twitter Logo"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn Logo"></a>
+                <a href="https://whatsapp.com" target="_blank"><img src="https://w7.pngwing.com/pngs/507/666/png-transparent-computer-icons-whatsapp-whatsapp-text-logo-silhouette-thumbnail.png" alt="WhatsApp Logo"></a>
             </div>
-            <div class="right-section">
-                <nav class="navbar">
-                    <ul>
-                        <li> <a href="#home">Home</a></li>
-                        <li> <a href="#about">About</a></li>
-                        <li> <a href="#skills">Skills</a></li>
-                        <li> <a href="#services">Services</a></li>
-                        <li> <a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <h1 class="name">Cynthia Kaleche</h1>
-                <h2>Web Developer</h2>
-                <p class="description">
-                    Thank you for joining my journey! Together, we can create a better future. Explore, engage, and be a part of something meaningful.   
-                </p>
-                <div class="buttons">
-                    <a href="#" class="btn download-cv">Download CV</a>
-                    <a href="#" class="btn contact">Contact</a>
+        </div>
+        <div class="home-right">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Your go-to software developer.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="section-about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a beginner software developer passionate about building applications and learning new technologies. I enjoy tackling challenges and continuously improving my skills.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section-skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <p>HTML <span>85%</span></p>
+                    <div class="skill-bar">
+                        <div class="skill-bar-filled" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Git & GitHub</div>
+                <div class="skill-item">Responsive Design</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Project 1</h3>
+                    <p>Short description of Project 1.</p>
+                    <a href="project1-link" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2</h3>
+                    <p>Short description of Project 2.</p>
+                    <a href="project2-link" class="btn">View Project</a>
+                </div>
+                <div class="project-item">
+                    <h3>Project 3</h3>
+                    <p>Short description of Project 3.</p>
+                    <a href="project3-link" class="btn">View Project</a>
                 </div>
             </div>
         </div>
-    </body>
- </html>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:kalechecynthia@gmail.com">kalechecynthia@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cynthia Kaleche. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
