@@ -229,3 +229,12 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
+
+.developer-image {
+    width: 300px;
+    float: inline-end;
+    border: #e65100 10px solid;
+    width: 300px;
+    border-width: 20px;
+
+}
