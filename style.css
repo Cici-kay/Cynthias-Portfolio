@@ -231,6 +231,10 @@ body {
     transform: scale(1.05);
 }
 
+.projects-statement {
+    font-size: 20px;
+}
+
 footer {
     background-color: black;
     text-align: center;
