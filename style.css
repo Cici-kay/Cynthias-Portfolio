@@ -67,7 +67,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 70px; /* To account for fixed navbar */
+    padding-top: 70px;/* To account for fixed navbar */
 }
 
 .home {
